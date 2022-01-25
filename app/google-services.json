@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106790376777",
+    "firebase_url": "https://chatbox-d3819-default-rtdb.firebaseio.com",
+    "project_id": "chatbox-d3819",
+    "storage_bucket": "chatbox-d3819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106790376777:android:c7b3d28cdeb158b5797698",
+        "android_client_info": {
+          "package_name": "com.hemant239.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106790376777-u1k9e04q3jkfusuftikqr19mqj2idn2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hemant239.chatbox",
+            "certificate_hash": "7dfbcde4ca26c22e7af0f23a9ba4446202c51602"
+          }
+        },
+        {
+          "client_id": "106790376777-9s4vah3t1to693krgits2154e0jeij5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPq_9P6fL2WcLDk6xHwMnL2-on_hlL_Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106790376777-9s4vah3t1to693krgits2154e0jeij5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

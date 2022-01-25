@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appToolBarSpecificChat"
+    android:fitsSystemWindows="true"
+    app:layout_collapseMode="pin"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_image_background"
+            android:layout_margin="3dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/chatAppProfileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_person_24"
+                android:background="@drawable/custom_image_background"
+                android:scaleType="fitXY"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hello This"
+            android:id="@+id/chatAppName"
+            android:textSize="30sp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.Toolbar>

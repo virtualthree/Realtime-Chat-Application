@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Create New Chat"
+        app:showAsAction="ifRoom"
+        android:id="@+id/createNewGroupMenu"
+        android:icon="@drawable/ic_baseline_add_24"/>
+
+
+    <item android:title="All Contacts"
+        app:showAsAction="never"
+        android:id="@+id/singleChatsMenu"
+        />
+
+
+    <item
+        android:id="@+id/viewProfileMenu"
+        app:showAsAction="never"
+        android:title="View Profile" />
+
+
+    <item android:title="Logout"
+        app:showAsAction="never"
+        android:id="@+id/logoutMenu"
+        />
+
+</menu>
